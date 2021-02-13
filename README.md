@@ -1,2 +1,2 @@
 # Java-Kodları
-Üniversite hayatımdan itibaren yazdığım java kod çalışmaları
+Üniversite 1. sınıftan itibaren yazdığım java kodları.
