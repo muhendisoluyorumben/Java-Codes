@@ -1,16 +1,20 @@
-package Calismalar;
 
 /**
- * Ekrana * ** *** **** ***** Benzeri þekilleri çizen program.
- * 
- * @author Murat 07.02.2021 / 14.53
+   Ekrana * 
+          **  
+          *** 
+ 	  ****
+	  *****
+	  Benzeri Ã¾ekilleri Ã§izen program.
+  @author Murat
+  07.02.2021 / 14.53
  */
 public class Calisma009_SekilCizimi {
 
 	public static void main(String[] args) {
 
 		
-		// Kumsaati Çizimi:
+		// Kumsaati Ã‡izimi:
 		
 		for (int i = 0; i < 6; i++) {
 			if (i == 0) {
@@ -34,7 +38,7 @@ public class Calisma009_SekilCizimi {
 		System.out.printf("%n%n");
 
 		
-		//Kare çizimi:
+		//Kare Ã§izimi:
 		for (int i = 0; i < 6; i++) {
 			for (int j = 0; j < 6; j++) {
 				if (i < 5 && i > 0) {
@@ -53,7 +57,7 @@ public class Calisma009_SekilCizimi {
 		
 		System.out.println("");
 
-		// Artýrarak * iþareti koyma:
+		// ArtÃ½rarak * iÃ¾areti koyma:
 		for (int i = 0; i < 6; i++) {
 			for (int j = 0; j <= i; j++) {
 				System.out.print("*");
@@ -61,7 +65,7 @@ public class Calisma009_SekilCizimi {
 			System.out.println("");
 		}
 		System.out.println("");
-		// Azaltarak * iþareti koyma
+		// Azaltarak * iÃ¾areti koyma
 		for (int i = 6; i > 0; i--) {
 			for (int j = 0; j < i; j++) {
 				System.out.print("*");
