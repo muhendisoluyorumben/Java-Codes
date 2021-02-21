@@ -1,12 +1,12 @@
-package Calismalar;
+
 /**
- * Çarpma işlemini toplama ile yapan program.
+ * Ã‡arpma islemini toplama ile yapan program.
  * @author Murat
  * 10.02.2021 / 13.13
  */
 import java.util.Scanner;
 
-public class Calisma013_TopİleÇarpmaYap {
+public class Calisma013_TopÃleÃ‡arpmaYap {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -14,7 +14,7 @@ public class Calisma013_TopİleÇarpmaYap {
 		Scanner klavye= new Scanner(System.in);
 		System.out.println("ilk sayiyi giriniz");
 		sayi1=klavye.nextInt();
-		System.out.println("İkinci sayiyi giriniz");
+		System.out.println("Ãkinci sayiyi giriniz");
 		sayi2=klavye.nextInt();
 		
 		if(sayi1>sayi2) {
