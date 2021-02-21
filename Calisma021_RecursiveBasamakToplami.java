@@ -1,6 +1,5 @@
-package Calismalar;
 /**
- * Recursive fonksiyonla girilen sayinin basamak degerlerinin toplamini bulma
+ * Recursive fonksiyonla girilen sayinin basamak degerlerinin toplamini bulan program.
  * @author Murat
  * 12.02.2021 / 11.34
  */
