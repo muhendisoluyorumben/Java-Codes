@@ -1,12 +1,10 @@
-package Calismalar;
-
 /**
- * Göreviniz, herhangi bir negatif olmayan tamsayıyı bağımsız değişken olarak alıp rakamları azalan
- * sırada döndürebilen bir işlev yapmaktır. Esasen, mümkün olan en yüksek sayıyı oluşturmak için rakamları yeniden düzenleyin.
+ * GÃ¶reviniz, herhangi bir negatif olmayan tamsayiyi bagimsiz degisken olarak alip rakamlari azalan
+ * sirada dÃ¶ndÃ¼rebilen bir islev yapmaktir. Esasen, mÃ¼mkÃ¼n olan en yÃ¼ksek sayiyi olusturmak iÃ§in rakamlari yeniden dÃ¼zenleyin.
  *
  * @author Murat
  *
- * 19.02.2021 / 00.00
+ * 19.02.2021 
  */
 import java.util.Scanner;
 
