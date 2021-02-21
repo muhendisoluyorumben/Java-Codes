@@ -1,9 +1,7 @@
-package Calismalar;
-
 /**
- * İki veya daha fazla basamaklı bir sayının tersten yazılışı kendisine
- * eşitse bu sayıya 'Blur Sayısı' denir. Klavyeden girilen bir değerin
- * blr sayı olup olmadığını bulan ekrana yazan program.
+ * Ä°ki veya daha fazla basamaklÄ± bir sayÄ±nÄ±n tersten yazÄ±lÄ±ÅŸÄ± kendisine
+ * eÅŸitse bu sayÄ±ya 'Blur SayÄ±sÄ±' denir. Klavyeden girilen bir deÄŸerin
+ * blr sayÄ± olup olmadÄ±ÄŸÄ±nÄ± bulan ekrana yazan program.
  *
  * @author Murat
  * 
@@ -16,45 +14,45 @@ public class Calisma015_BlurSayi {
 
 	public static void main(String[] args) {
 
-		String sayi;  // sayımızı string olarak okuyoruz. eğer bir sayi değişkeni (int ,double...) olarak okusaydık ayrıca basamak sayısı için ayriyeten 
-					//bir işlem yapmak zorunda olacaktık ama bu şekilde .length koduyla boyutunu kolayca ölçebiliyoruz
-		char[] terssayi,düzsayi; // char türünde iki tane dizi oluşturuyoruz. Birine okuduğumuz sayının düz halini diğerine de ters halini atayacağız
-		System.out.println("yazı giriniz");
+		String sayi;  // sayÄ±mÄ±zÄ± string olarak okuyoruz. eÄŸer bir sayi deÄŸiÅŸkeni (int ,double...) olarak okusaydÄ±k ayrÄ±ca basamak sayÄ±sÄ± iÃ§in ayriyeten 
+					//bir iÅŸlem yapmak zorunda olacaktÄ±k ama bu ÅŸekilde .length koduyla boyutunu kolayca Ã¶lÃ§ebiliyoruz
+		char[] terssayi,dÃ¼zsayi; // char tÃ¼rÃ¼nde iki tane dizi oluÅŸturuyoruz. Birine okuduÄŸumuz sayÄ±nÄ±n dÃ¼z halini diÄŸerine de ters halini atayacaÄŸÄ±z
+		System.out.println("yazÄ± giriniz");
 		Scanner klavye= new Scanner(System.in);
-		sayi=klavye.nextLine();  // sayısı string olarak okuyoruz
+		sayi=klavye.nextLine();  // sayÄ±sÄ± string olarak okuyoruz
 		
-		terssayi =new char[sayi.length()];   // dizilerin boyutlarını sayının uzunluğu kadar yapıyoruz
-		düzsayi =new char[sayi.length()];
+		terssayi =new char[sayi.length()];   // dizilerin boyutlarÄ±nÄ± sayÄ±nÄ±n uzunluÄŸu kadar yapÄ±yoruz
+		dÃ¼zsayi =new char[sayi.length()];
 		
-		int m=0;  // bu değişkeni bu for döngüsünde kullanıyoruz.
-		for(int i=sayi.length()-1;i>=0;i--) {  // bu döngüde string değerimizin elemanlarını sondan başlayarak atıyoruz.
-			terssayi[m]=sayi.charAt(i);  // Stringi char' a çevirme.  Burda dizimizin indisini de i değişkeni
-			m++;                        /*olarak alsaydık sayıyı ters çevirmiş olmazdık. Farklı bir m değişkeni oluşturduk
-						* ve dizimizn indisini m değişkeni yaptık.i indisi azalırken m indisi artıyor. Bu sayede 5 basamaklı 
-						*bir sayıda string değerimizin 4. indisini dizimizin 0. indisine atıyoruz. Yani sayıyı ters çeviriyoruz.  
+		int m=0;  // bu deÄŸiÅŸkeni bu for dÃ¶ngÃ¼sÃ¼nde kullanÄ±yoruz.
+		for(int i=sayi.length()-1;i>=0;i--) {  // bu dÃ¶ngÃ¼de string deÄŸerimizin elemanlarÄ±nÄ± sondan baÅŸlayarak atÄ±yoruz.
+			terssayi[m]=sayi.charAt(i);  // Stringi char' a Ã§evirme.  Burda dizimizin indisini de i deÄŸiÅŸkeni
+			m++;                        /*olarak alsaydÄ±k sayÄ±yÄ± ters Ã§evirmiÅŸ olmazdÄ±k. FarklÄ± bir m deÄŸiÅŸkeni oluÅŸturduk
+						* ve dizimizn indisini m deÄŸiÅŸkeni yaptÄ±k.i indisi azalÄ±rken m indisi artÄ±yor. Bu sayede 5 basamaklÄ± 
+						*bir sayÄ±da string deÄŸerimizin 4. indisini dizimizin 0. indisine atÄ±yoruz. Yani sayÄ±yÄ± ters Ã§eviriyoruz.  
 						*/
 			}
 
 		
 		for(int i=0;i<=sayi.length()-1;i++) {
-			düzsayi[i]=sayi.charAt(i);  // Stringi char' a çevirme. stirng ve char karşılaştırması 
-										//yapamadığımızdan sayının düz halini de bir char dizisine atıyoruz ve dizileri karşılaştırıyoruz
+			dÃ¼zsayi[i]=sayi.charAt(i);  // Stringi char' a Ã§evirme. stirng ve char karÅŸÄ±laÅŸtÄ±rmasÄ± 
+										//yapamadÄ±ÄŸÄ±mÄ±zdan sayÄ±nÄ±n dÃ¼z halini de bir char dizisine atÄ±yoruz ve dizileri karÅŸÄ±laÅŸtÄ±rÄ±yoruz
 			}
 		
 		
 		for(int i=0;i<sayi.length();i++) {
-			if(terssayi[i]!=düzsayi[i]) {  //sayının ters ve düz halinde eğer herhangi bir değişken farklıysa bundan sonrakii değişkenlere bakmadan ekrana hemen yazıyı yazıp döngüden çıkar.
-				System.out.println("Blur sayısı değildir");
+			if(terssayi[i]!=dÃ¼zsayi[i]) {  //sayÄ±nÄ±n ters ve dÃ¼z halinde eÄŸer herhangi bir deÄŸiÅŸken farklÄ±ysa bundan sonrakii deÄŸiÅŸkenlere bakmadan ekrana hemen yazÄ±yÄ± yazÄ±p dÃ¶ngÃ¼den Ã§Ä±kar.
+				System.out.println("Blur sayÄ±sÄ± deÄŸildir");
 				break;
-			}else {  // herhangi bir değişken farklı değilse m değerini bir attır.
+			}else {  // herhangi bir deÄŸiÅŸken farklÄ± deÄŸilse m deÄŸerini bir attÄ±r.
 				m++;
 			}
 		}
-		if(m>sayi.length()) {  // döngü bitti ve çıktı. Biz döngü de m değerini farklılık yoksa her seferinde arttırdık.
-			System.out.println("Blur sayısı"); /*Aslında m değeri yukarıda sstring değerin yani sayının uzunluğk değerine
-			                 *ulaştı. Ters sayıyı diziye atarken m değerini string in uzunluğu kadar arttırmıştık. 
-			                 *İşte bu döngüde de m değerini saılar aynı olduğu sürece arttırdık ve sayının uzunluğundan 
-			                 *büyük bir hale geldi.
+		if(m>sayi.length()) {  // dÃ¶ngÃ¼ bitti ve Ã§Ä±ktÄ±. Biz dÃ¶ngÃ¼ de m deÄŸerini farklÄ±lÄ±k yoksa her seferinde arttÄ±rdÄ±k.
+			System.out.println("Blur sayÄ±sÄ±"); /*AslÄ±nda m deÄŸeri yukarÄ±da sstring deÄŸerin yani sayÄ±nÄ±n uzunluÄŸk deÄŸerine
+			                 *ulaÅŸtÄ±. Ters sayÄ±yÄ± diziye atarken m deÄŸerini string in uzunluÄŸu kadar arttÄ±rmÄ±ÅŸtÄ±k. 
+			                 *Ä°ÅŸte bu dÃ¶ngÃ¼de de m deÄŸerini saÄ±lar aynÄ± olduÄŸu sÃ¼rece arttÄ±rdÄ±k ve sayÄ±nÄ±n uzunluÄŸundan 
+			                 *bÃ¼yÃ¼k bir hale geldi.
 			                 */
 		}
 		klavye.close();
