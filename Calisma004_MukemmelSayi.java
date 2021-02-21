@@ -1,8 +1,8 @@
-package Calismalar;
+
 /*
- * Bir sayının kendisi hariç pozitif tamsayı çarpanları( kalansız bölen sayıların)
- * toplamı kendisine eşitse o sayıya mükemmel sayı denir. Klavyeden girilen sayının
- * mükemmel sayı olup omadığı ekrana yazan program.
+ * Bir sayÄ±nÄ±n kendisi hariÃ§ pozitif tamsayÄ± Ã§arpanlarÄ±( kalansÄ±z bÃ¶len sayÄ±larÄ±n)
+ * toplamÄ± kendisine eÅŸitse o sayÄ±ya mÃ¼kemmel sayÄ± denir. Klavyeden girilen sayÄ±nÄ±n
+ * mÃ¼kemmel sayÄ± olup omadÄ±ÄŸÄ± ekrana yazan program.
  * 
  * 06.02.2021 / 11.41
  * MRT
@@ -12,7 +12,7 @@ public class Calisma004_MukemmelSayi {
 	public static void main(String[] args) {
 		Scanner klavye= new Scanner(System.in);
 		int sayi,bolenToplam=0;
-		System.out.println("Sayıyı giriniz : ");
+		System.out.println("SayÄ±yÄ± giriniz : ");
 		sayi=klavye.nextInt();
 		for(int i=1;i<sayi;i++) {
 			if(0==sayi%i) {
@@ -20,9 +20,9 @@ public class Calisma004_MukemmelSayi {
 			}
 		}
 		if(bolenToplam==sayi) {
-			System.out.println(sayi+" sayısı mükemmel sayıdır");
+			System.out.println(sayi+" sayÄ±sÄ± mÃ¼kemmel sayÄ±dÄ±r");
 		}else {
-			System.out.println(sayi+" sayısı mükemmel sayı değildir");
+			System.out.println(sayi+" sayÄ±sÄ± mÃ¼kemmel sayÄ± deÄŸildir");
 		}
 		klavye.close();
 	}
