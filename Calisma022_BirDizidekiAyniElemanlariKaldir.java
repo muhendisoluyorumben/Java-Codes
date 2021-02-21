@@ -1,4 +1,4 @@
-package Calismalar;
+
 /**
  * Bir dizide tekrarli olan elemanlari kaldiran program.
  * @author Murat
@@ -19,20 +19,20 @@ public class Calisma022_BirDizidekiAyniElemanlariKaldir {
 		System.out.println("Dizinin ilk hali:  ");
 		diziyazdir(dizi);
 			
-		for(int i=0;i<boyut-1;i++) {  // dizinin elemanlarini kendi icerisinde karsilastiriyoruz. Ve her seferinde karsilastirdiðimiz sayilar birbirine esitse birini 0' esitliyoruz
+		for(int i=0;i<boyut-1;i++) {  // dizinin elemanlarini kendi icerisinde karsilastiriyoruz. Ve her seferinde karsilastirdiÄŸimiz sayilar birbirine esitse birini 0' esitliyoruz
 			for(int j=i+1;j<boyut;j++) {
 				if(dizi[i]==dizi[j]) {
 					dizi[i]=0;
-					sayac++;  // 0' a esitlediðimiz sayilarý ekrana yazdirmayacagimizdan dolayý 0' larin sayisini olcuyoruz.
+					sayac++;  // 0' a esitlediÄŸimiz sayilarÄ± ekrana yazdirmayacagimizdan dolayÄ± 0' larin sayisini olcuyoruz.
 					break;
 				}
 			}
 		}
 		
-		sondizi=new int[boyut-sayac];  // 0'larý yamzayacagimizdan dolayi eski dizinin boyutundan 0' ýn sayisini cikariyoruz
+		sondizi=new int[boyut-sayac];  // 0'larÄ± yamzayacagimizdan dolayi eski dizinin boyutundan 0' Ä±n sayisini cikariyoruz
 		int j=0;
 		for(int i=0;i<boyut;i++) {
-			if(dizi[i]!=0) {  // eger dizi deki eleman 0' a esit degilse sondizi' ye atýyoruz. 0' sa atmýyoruz. Cunku yazmayacagiz.
+			if(dizi[i]!=0) {  // eger dizi deki eleman 0' a esit degilse sondizi' ye atÄ±yoruz. 0' sa atmÄ±yoruz. Cunku yazmayacagiz.
 				sondizi[j]=dizi[i];
 				j++;
 			}
