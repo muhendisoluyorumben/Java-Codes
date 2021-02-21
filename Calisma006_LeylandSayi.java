@@ -1,7 +1,7 @@
-package Calismalar;
+
 /*
- * x>1 ve y>1 olmak üzere x^y + y^x biçiminde oluşturulan sayılara Leyland Sayı denir
- * Klavyeden girilen x ve y değerlerine (x ve y dahil) kadar Leyland sayıları hesaplayıp
+ * x>1 ve y>1 olmak Ã¼zere x^y + y^x biÃ§iminde oluÅŸturulan sayÄ±lara Leyland SayÄ± denir
+ * Klavyeden girilen x ve y deÄŸerlerine (x ve y dahil) kadar Leyland sayÄ±larÄ± hesaplayÄ±p
  * ekrana yazan program.
  * 
  * 06.02.2021 / 12. 18
@@ -14,12 +14,12 @@ public class Calisma006_LeylandSayi {
 		// TODO Auto-generated method stub
 		int x,y;
 		
-		System.out.println("x değerini giriniz");
+		System.out.println("x deÄŸerini giriniz");
 		x=okuma();
-		System.out.println("y değerini giriniz");
+		System.out.println("y deÄŸerini giriniz");
 		y=okuma();
 		
-		System.out.println("Leyland Sayılar: ");
+		System.out.println("Leyland SayÄ±lar: ");
 		for(int i=2;i<=x;i++) {
 			for(int j=2;j<=y;j++) {
 				System.out.print(" "+(int)(Math.pow(i,j)+Math.pow(j, i)));
@@ -37,7 +37,7 @@ public class Calisma006_LeylandSayi {
 		if(m>1) 
 			break;
 		else 
-			System.err.println("1' den büyük değer giriniz");
+			System.err.println("1' den bÃ¼yÃ¼k deÄŸer giriniz");
 		}while(true);
 		
 		return m;
