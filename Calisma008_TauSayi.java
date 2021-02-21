@@ -1,10 +1,9 @@
-package Calismalar;
 
 /*
- *Pozitif tam sayıyı kalansız bölenler sayısı bu sayıyı kalansız bölüyorsa bu sayıya Tau sayısı denir.
- *8 sayısını 1, 2, 3, 4 sayıları kalansız böler. Kalansız bölen sayısı 4'tür ve 4' de 8'i kalansız böler.
- *8 sayısı Tau sayısıdır. Buna göre klavyeden girilen bir sayının Tau sayı olup olmadığını bulan 
- *ve ekrana yazan bir program yazınız. 
+ *Pozitif tam sayÄ±yÄ± kalansÄ±z bÃ¶lenler sayÄ±sÄ± bu sayÄ±yÄ± kalansÄ±z bÃ¶lÃ¼yorsa bu sayÄ±ya Tau sayÄ±sÄ± denir.
+ *8 sayÄ±sÄ±nÄ± 1, 2, 3, 4 sayÄ±larÄ± kalansÄ±z bÃ¶ler. KalansÄ±z bÃ¶len sayÄ±sÄ± 4'tÃ¼r ve 4' de 8'i kalansÄ±z bÃ¶ler.
+ *8 sayÄ±sÄ± Tau sayÄ±sÄ±dÄ±r. Buna gÃ¶re klavyeden girilen bir sayÄ±nÄ±n Tau sayÄ± olup olmadÄ±ÄŸÄ±nÄ± bulan 
+ *ve ekrana yazan bir program yazÄ±nÄ±z. 
  * 
  * 07.02.2021 / 12.54
  * MRT
@@ -16,7 +15,7 @@ public class Calisma008_TauSayi {
 		// TODO Auto-generated method stub
 		Scanner klavye=new Scanner(System.in);
 		int sayi,bolenSayisi=0;
-		System.out.println("Sayıyı giriniz:");
+		System.out.println("SayÄ±yÄ± giriniz:");
 		sayi=klavye.nextInt();
 		for(int i=1;i<=sayi;i++) {
 			if(0==sayi%i) {
@@ -24,10 +23,10 @@ public class Calisma008_TauSayi {
 			}
 		}
 		if(0==sayi%bolenSayisi) {
-			System.out.println("Sayı Tau sayısıdır.");
+			System.out.println("SayÄ± Tau sayÄ±sÄ±dÄ±r.");
 		}
 		else {
-			System.out.println("Sayı Tau sayısı değildir.");
+			System.out.println("SayÄ± Tau sayÄ±sÄ± deÄŸildir.");
 		}
 		klavye.close();
 	}
