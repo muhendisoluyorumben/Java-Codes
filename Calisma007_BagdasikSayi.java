@@ -1,9 +1,9 @@
-package Calismalar;
+
 
 /*
- * Sadece iki basamaklı iki doğal sayının birler basamağındaki rakamların toplamı 10 ve onlar basamağındaki 
- * rakamları aynı ise bu iki sayıya bağdaık sayı denir. Klavyeden girilen iki sayının bağdaşık sayı olup 
- * olmadığını ekrana yazan program.
+ * Sadece iki basamaklÄ± iki doÄŸal sayÄ±nÄ±n birler basamaÄŸÄ±ndaki rakamlarÄ±n toplamÄ± 10 ve onlar basamaÄŸÄ±ndaki 
+ * rakamlarÄ± aynÄ± ise bu iki sayÄ±ya baÄŸdaÄ±k sayÄ± denir. Klavyeden girilen iki sayÄ±nÄ±n baÄŸdaÅŸÄ±k sayÄ± olup 
+ * olmadÄ±ÄŸÄ±nÄ± ekrana yazan program.
  * 
  * 06.02.2021 / 12.57
  * MRT
@@ -15,18 +15,18 @@ public class Calisma007_BagdasikSayi {
 		// TODO Auto-generated method stub
 		int sayi1,sayi2;
 		Scanner klavye = new Scanner(System.in);
-		System.out.println("İlk sayıyı giriniz");
+		System.out.println("Ä°lk sayÄ±yÄ± giriniz");
 		sayi1=klavye.nextInt();
-		System.out.println("İkinci sayıyı giriniz");
+		System.out.println("Ä°kinci sayÄ±yÄ± giriniz");
 		sayi2=klavye.nextInt();
 		
 		if((int)sayi1/10==(int)sayi2/10) {
 			if(0==(sayi1+sayi2)%10)
-				System.out.println("Bağdaşık sayılardır");
+				System.out.println("BaÄŸdaÅŸÄ±k sayÄ±lardÄ±r");
 			else
-				System.out.println("Bağdaşık sayılar değillerdir.");
+				System.out.println("BaÄŸdaÅŸÄ±k sayÄ±lar deÄŸillerdir.");
 		}else {
-			System.out.println("Bağdaşık sayılar değillerdir");
+			System.out.println("BaÄŸdaÅŸÄ±k sayÄ±lar deÄŸillerdir");
 		}
 		klavye.close();
 	}
