@@ -1,7 +1,7 @@
-package Calismalar;
+
 /*
- * 2 sayýdan büyük olaný bulup ekrana yazan program
- * 17.11.2020 Salý 20.10 
+ * 2 sayidan bÃ¼yÃ¼k olani bulup ekrana yazan program
+ * 17.11.2020 Sali 20.10 
  */
 
 public class Calisma001_SayiBuyKuc {
