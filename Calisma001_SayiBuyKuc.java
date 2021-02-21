@@ -1,6 +1,6 @@
-
 /*
  * 2 sayidan büyük olani bulup ekrana yazan program
+ * @author Murat
  * 17.11.2020 Sali 20.10 
  */
 
