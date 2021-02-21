@@ -1,15 +1,13 @@
-package Calismalar;
-
 import java.util.Scanner;
 
 /**
  * cos(x) = 1 - x^2/2! + x^4/4! - x^6/6!+ ... + (-1)^N*x^2N/(2N)!+...
- * Klavyeden bir x(derece cinsinden) ve N deðerlerini 
- * alýp cos(x) deðerini hesaplayan ve ekrana yazan program
+ * Klavyeden bir x(derece cinsinden) ve N degerlerini 
+ * alip cos(x) degerini hesaplayan ve ekrana yazan program
  * @author Murat
  *
  */
-public class Calisma014_CosinüsHesabý {
+public class Calisma014_CosinÃ¼sHesabÃ½ {
 
 	public static void main(String[] args) {
 	double fonk=1,terim=1;
@@ -17,7 +15,7 @@ public class Calisma014_CosinüsHesabý {
 	
 	Scanner klavye=new Scanner(System.in);
 	
-	System.out.println("Açýyý giriniz");
+	System.out.println("AÃ§Ã½yÃ½ giriniz");
 	x=klavye.nextInt();
 	System.out.println("Hassasiyeti giriniz");
 	n=klavye.nextInt();
