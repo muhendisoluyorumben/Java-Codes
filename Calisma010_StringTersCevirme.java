@@ -1,22 +1,21 @@
-package Calismalar;
 
 /**
- * Girilen String değişkeni ters çeviren program.
+ * Girilen String deÃ°iÃ¾keni ters Ã§eviren program.
  * @author Murat
- *	07.02.2021 / 20.47
+ * 07.02.2021 / 20.47
  */
 import java.util.Scanner;
 
 public class Calisma010_StringTersCevirme {
 	public static void main(String[] args) {
 		String mesaj;
-		char hadibakım;
-		System.out.println("yazı giriniz");
+		char hadibakÃ½m;
+		System.out.println("yazÃ½ giriniz");
 		Scanner klavye= new Scanner(System.in);
 		mesaj=klavye.nextLine();
 		for(int i=mesaj.length()-1;i>=0;i--) {
-		hadibakım=mesaj.charAt(i);  // Stringi char' a çevirme.
-		System.out.print(hadibakım);
+		hadibakÃ½m=mesaj.charAt(i);  // Stringi char' a Ã§evirme.
+		System.out.print(hadibakÃ½m);
 		}
 		klavye.close();
 	}
