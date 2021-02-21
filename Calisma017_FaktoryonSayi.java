@@ -1,8 +1,7 @@
-package Calismalar;
 /**
- * Bir sayýyý oluþturan rakamlarýn faktöriyellerinin toplamý kendisine 
- * eþit olan sayýlara faktoryon sayi denir. Öneðin 145=1!+4!+5! gibi. Klavyeden 
- * girilen bir sayýnýn faktoryon sayi olup olmadýðýný bulup ekrana yazan program.
+ * Bir sayÄ±yÄ± oluÅŸturan rakamlarÄ±n faktÃ¶riyellerinin toplamÄ± kendisine 
+ * eÅŸit olan sayÄ±lara faktoryon sayi denir. Ã–neÄŸin 145=1!+4!+5! gibi. Klavyeden 
+ * girilen bir sayÄ±nÄ±n faktoryon sayi olup olmadÄ±ÄŸÄ±nÄ± bulup ekrana yazan program.
  * @author Murat
  * 12.02.2021 / 16.34
  */
@@ -15,11 +14,11 @@ public class Calisma017_FaktoryonSayi {
 		int faktor,sayi,rakam,toplam=0,korumalisayi;
 		System.out.println("Sayiyi giriniz");
 		sayi=klavye.nextInt();
-		korumalisayi=sayi; // sayi deðiþkeni üzerinde iþlem yapacaðýmýzdan dolayý sayýyý üzerinde iþlem yapmayacaðýmýz bir deðiþkene atýyoruz
+		korumalisayi=sayi; // sayi deÄŸiÅŸkeni Ã¼zerinde iÅŸlem yapacaÄŸÄ±mÄ±zdan dolayÄ± sayÄ±yÄ± Ã¼zerinde iÅŸlem yapmayacaÄŸÄ±mÄ±z bir deÄŸiÅŸkene atÄ±yoruz
 		
 		do {
-			rakam=sayi%10; // sayýyýnýn 10 a göre modunu alýyor ve kalaný rakam deðiþkenine atýryoruz ve bu sayede birler basamaðýný elde etmiþ oluyoruz
-			sayi=sayi/10;  //burdaki iþlem ile de sayýnýn basamak deðerini bir azaltýyoruz. yaný sayý 145 ise 14 e çeviriyyor ve her deferinde üstteki iþlem ile de birler basamaðýný elde ediyoruz
+			rakam=sayi%10; // sayÄ±yÄ±nÄ±n 10 a gÃ¶re modunu alÄ±yor ve kalanÄ± rakam deÄŸiÅŸkenine atÄ±ryoruz ve bu sayede birler basamaÄŸÄ±nÄ± elde etmiÅŸ oluyoruz
+			sayi=sayi/10;  //burdaki iÅŸlem ile de sayÄ±nÄ±n basamak deÄŸerini bir azaltÄ±yoruz. yanÄ± sayÄ± 145 ise 14 e Ã§eviriyyor ve her deferinde Ã¼stteki iÅŸlem ile de birler basamaÄŸÄ±nÄ± elde ediyoruz
 			faktor=1;
 			for(int i=rakam;i>1;i--) {
 				faktor*=i;
