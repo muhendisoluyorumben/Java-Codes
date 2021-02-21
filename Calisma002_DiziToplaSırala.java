@@ -1,11 +1,8 @@
-package Calismalar;
-
-
 /*
- * N (N<=100 olmak üzere) elemanlý iki diziye rand() yardýmýyla [1, 100) arasýnda rastgele
- *  tamsayýlar girilmektedir.bu iki dizinin elemanlarý toplayan ve dizileri küçükten büyüðe doðru  
- *  sýralayan ve diziye atanan sayýlarý sýralamadan ÖNCE ve 
- *  sýralamadan SONRA  yan yana 
+ * N (N<=100 olmak Ã¼zere) elemanli iki diziye rand() yardimiyla [1, 100) arasinda rastgele
+ *  tamsayilar girilmektedir.bu iki dizinin elemanlari toplayan ve dizileri kÃ¼Ã§Ã¼kten bÃ¼yÃ¼ge dogru  
+ *  siralayan ve diziye atanan sayilari siralamadan Ã–NCE ve 
+ *  siralamadan SONRA  yan yana 
  *  ekrana yazan program.
  *  04.02.2021 / 17.30
  *  MRT
@@ -13,7 +10,7 @@ package Calismalar;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Calisma002_DiziToplaSýrala {
+public class Calisma002_DiziToplaSÃ½rala {
 	public static void main(String[] args) {
 		int[] dizi1, dizi2, diziTop;
 		int boyut;
@@ -26,7 +23,7 @@ public class Calisma002_DiziToplaSýrala {
 			if (boyut > 0) {
 				break;
 			} else {
-				System.err.println("Pozitif sayý giriniz!");
+				System.err.println("Pozitif sayÃ½ giriniz!");
 			}
 		} while (true);
 
@@ -49,7 +46,7 @@ public class Calisma002_DiziToplaSýrala {
 		yazdir(diziTop);
 
 		System.out.println("");
-		System.out.println("Dizilerin büyükten küçüðe doðru sýralanmýþ halleri.");
+		System.out.println("Dizilerin bÃ¼yÃ¼kten kÃ¼Ã§Ã¼Ã°e doÃ°ru sÃ½ralanmÃ½Ã¾ halleri.");
 		System.out.print("1. Dizi: ");
 		siralaYazdir(dizi1, boyut);
 		System.out.print("2. Dizi: ");
