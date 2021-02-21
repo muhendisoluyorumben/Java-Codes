@@ -1,7 +1,7 @@
-package Calismalar;
 
-/* 2^n + 1 biçiminde yazılabilen doğal sayılara Cullen sayı denir.
-* Klavyeden girilen bir sayının Cullen sayı olup olmadığını ekrana yazan program
+
+/* 2^n + 1 biÃ§iminde yazÄ±labilen doÄŸal sayÄ±lara Cullen sayÄ± denir.
+* Klavyeden girilen bir sayÄ±nÄ±n Cullen sayÄ± olup olmadÄ±ÄŸÄ±nÄ± ekrana yazan program
 * 
 * 06.02.2021 / 11.56
 * MRT
@@ -13,19 +13,19 @@ public class Calisma005_CullenSayi {
 		// TODO Auto-generated method stub
 		int sayi;
 		Scanner klavye= new Scanner(System.in);
-		System.out.println("Sayıyı giriniz");
+		System.out.println("SayÄ±yÄ± giriniz");
 		sayi=klavye.nextInt();
 		klavye.close();
 		int sayac=0;
 		while(sayac<sayi) {
 			if(sayi==Math.pow(2,sayac)*sayac+1) {
-				System.out.println(sayi+" sayısı Cullen sayıdır");
+				System.out.println(sayi+" sayÄ±sÄ± Cullen sayÄ±dÄ±r");
 				break;
 			}else
 			sayac++;
 		}
 		if(sayac==sayi) {
-			System.out.println(sayi+" sayısı Cullen sayı değildir");
+			System.out.println(sayi+" sayÄ±sÄ± Cullen sayÄ± deÄŸildir");
 		}
 	}
 
