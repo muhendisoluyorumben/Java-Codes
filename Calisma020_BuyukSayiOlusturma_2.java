@@ -1,5 +1,3 @@
-
-
 public class  Calisma020_BuyukSayiOlusturma_2 {
 
 	public static void main(String[] args) {
