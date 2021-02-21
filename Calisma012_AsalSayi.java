@@ -1,7 +1,7 @@
-package Calismalar;
+
 
 /**
- * Asal sayý bulan program
+ * Asal sayÃ½ bulan program
  * @author Murat
  * 07.02.2021 / 21.25
  */
@@ -9,7 +9,7 @@ public class Calisma012_AsalSayi {
 
 	public static void main(String[] args) {
 		int sayac;
-		System.out.println("1 Asal Deðildir");
+		System.out.println("1 Asal DeÃ°ildir");
 		for(int j=2;j<100;j++) {
 			sayac=0;
 			for(int i=2;i<j;i++) {
@@ -18,9 +18,9 @@ public class Calisma012_AsalSayi {
 				}
 			}
 			if(sayac>0)
-				System.out.println(j +" Asal deðildir");
+				System.out.println(j +" Asal deÃ°ildir");
 			else
-				System.out.println(j +" Asaldýr");
+				System.out.println(j +" AsaldÃ½r");
 		}
 		
 	}
