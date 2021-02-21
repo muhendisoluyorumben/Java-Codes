@@ -1,11 +1,9 @@
-package Calismalar;
-
 import java.util.Scanner;
 
 /**
- * x bir pozitif bir sayı olmak üzere  x*(x+1) biçiminde elde edilen sayılara
- * heterotermik sayilar denir. 1*(1+1)=2 gibi. Klavyeden girilen bir aralıktaki
- * heterotermik sayıları bulan ve ekrana yazan program.
+ * x bir pozitif bir sayi olmak Ã¼zere  x*(x+1) biÃ§iminde elde edilen sayilara
+ * heterotermik sayilar denir. 1*(1+1)=2 gibi. Klavyeden girilen bir araliktaki
+ * heterotermik sayilari bulan ve ekrana yazan program.
  * @author Murat
  * 12.02.2021 / 15.52
  */
