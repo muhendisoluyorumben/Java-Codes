@@ -1,4 +1,4 @@
-package Calismalar;
+
 
 public class  Calisma020_BuyukSayiOlusturma_2 {
 
