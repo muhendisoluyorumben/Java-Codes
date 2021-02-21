@@ -1,7 +1,7 @@
-package Calismalar;
+
 /*
  * f=1+ 1/2 + 2/3 + 3/4 + .. +n/(n+1)
- * serisini klavyeden girilen n değerine kadar hesaplayan program.
+ * serisini klavyeden girilen n deÃ°erine kadar hesaplayan program.
  * 
  * 06.02.2021 / 11.30
  * MRT
