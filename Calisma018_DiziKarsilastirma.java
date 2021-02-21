@@ -1,9 +1,7 @@
-package Calismalar;
-
 import java.util.Random;
 
 /**
- * Boyutlar˝ ve elemanlari rastgele olusturulan 2 dizideki elemanlari karsilastirip ayni olanlari bulan 
+ * Boyutlari ve elemanlari rastgele olusturulan 2 dizideki elemanlari karsilastirip ayni olanlari bulan 
  * ve indisleriyle beraber ekrana yazan program.
  * @author Murat
  * 13.02.2021 / 14.24
@@ -30,7 +28,7 @@ public class Calisma018_DiziKarsilastirma {
 		diziYaz(diziB,diziB.length);
 		
 		
-		System.out.printf("%n%n›ki dizinin ortak elemanlari:%n%n");
+		System.out.printf("%n%n√ùki dizinin ortak elemanlari:%n%n");
 		for(int i=0;i<diziA.length;i++) {
 			for(int j=0;j<diziB.length;j++) {
 				if(diziA[i]==diziB[j]) {
