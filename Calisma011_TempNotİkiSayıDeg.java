@@ -1,11 +1,11 @@
-package Calismalar;
+
 
 /**
- * Geçici temp değeri oluşturmadan iki değerin yerini değiştirme
+ * GeÃ§ici temp deÃ°eri oluÃ¾turmadan iki deÃ°erin yerini deÃ°iÃ¾tirme
  * @author Murat
  * 07.02.2021 / 20.57
  */
-public class Calisma011_TempNotİkiSayıDeg {
+public class Calisma011_TempNotÃkiSayÃ½Deg {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
