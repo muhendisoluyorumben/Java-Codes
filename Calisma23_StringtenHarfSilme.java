@@ -1,4 +1,3 @@
-package Calismalar;
 /**
  * Girilen String bir degerden belirlenen bir karakteri cikaran program.
  * 
@@ -22,11 +21,11 @@ public class Calisma23_StringtenHarfSilme {
 	mesaj=klavye.nextLine();
 	
 	char[] dizi=new char[mesaj.length()];    
-	for(int i=0;i<mesaj.length();i++) {  // String degisken uzerinde degisiklik yapmak icin tum karakterleri char cinsinde bir diziye tek tek atýyoruz.
+	for(int i=0;i<mesaj.length();i++) {  // String degisken uzerinde degisiklik yapmak icin tum karakterleri char cinsinde bir diziye tek tek atÄ±yoruz.
 		dizi[i]=mesaj.charAt(i);         // aslinda String metodlariyla String degisken uzerinde degisiklik yapabiliyoruz ama oralari daha ogrenmedik.
 	}
 	
-	System.out.println("Silmek istediðiniz karakter nedir?");  // silinecek karakterin kullanicidan alinmasi ve silinmesi olayi
+	System.out.println("Silmek istediÄŸiniz karakter nedir?");  // silinecek karakterin kullanicidan alinmasi ve silinmesi olayi
 	sil=klavye.next();
 	silChar=sil.charAt(0);
 	for(int i=0;i<mesaj.length();i++) {
@@ -40,7 +39,7 @@ public class Calisma23_StringtenHarfSilme {
 		System.err.printf("%nSilmek istediginiz karakter girdiginiz mesajda bulunmamaktadir!%n");
 	}else {
 	System.out.print("Silinen karalter sayisi: "); System.err.println(sayac);
-	System.err.println(". ' nýn oldugu yerler silinen karakterin yerini gösterir");
+	System.err.println(". ' nÄ±n oldugu yerler silinen karakterin yerini gÃ¶sterir");
 	for(int i=0;i<mesaj.length();i++) {
 		System.out.print(dizi[i]);
 	}
