@@ -8,7 +8,7 @@
  
 import java.util.Scanner;
 
-public class Calisma23_StringtenHarfSilme {
+public class Calisma023_StringtenHarfSilme {
 
 	public static void main(String[] args) {
 	
