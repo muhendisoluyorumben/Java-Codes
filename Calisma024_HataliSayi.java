@@ -1,4 +1,3 @@
-package Calismalar;
 /**
  * 1'den 100'e kadar sayilarin sirayla yazili oldugu bir dizi var. Bu sayilardan hangisinin hatali oldugunu bulan program.
  * 
@@ -15,7 +14,7 @@ public class Calisma024_HataliSayi {
 		int[] dizi = new int[100];
 		Random rand=new Random();
 		
-		int farkliKonumu=rand.nextInt(99); // yanlis olan sayinin konumunun her seferinde farkli olmasi icin rastgele bir sayi üretiyoruz
+		int farkliKonumu=rand.nextInt(99); // yanlis olan sayinin konumunun her seferinde farkli olmasi icin rastgele bir sayi Ã¼retiyoruz
 		int farkliSayi=rand.nextInt(1000);  // her calistirdigimizda yanlis olan sayi farkli olacak
 		for(int i=0;i<100;i++) {  // diziyi olusturuyoruz
 			if(i==farkliKonumu) {
@@ -38,7 +37,7 @@ public class Calisma024_HataliSayi {
 		if(m!=0) {
 			System.out.println((m+1)+" yazmasi gereken yerde "+dizi[m]+" yazmakta");
 		}else
-			System.out.println("sıkıntı yok");
+			System.out.println("sÃ½kÃ½ntÃ½ yok");
 	}
 
 }
