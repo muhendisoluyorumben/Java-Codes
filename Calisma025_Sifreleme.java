@@ -1,4 +1,3 @@
-package Calismalar;
 /**
  * Mesaj sifreleme programi.
  * 
@@ -17,10 +16,10 @@ public class Calisma025_Sifreleme
 		Scanner klavye=new Scanner(System.in);
 		String girilenMesaj;
 		char[] mesajHarfleri,cozulmusCumle,
-		alfabe= {'a','b','c','ç','d','e','f','g','ð','h','ý','i','j','k','l','m','n','o','ö','p','r','s','þ','t','u','ü','v','y','z'};
+		alfabe= {'a','b','c','Ã§','d','e','f','g','ÄŸ','h','Ä±','i','j','k','l','m','n','o','Ã¶','p','r','s','ÅŸ','t','u','Ã¼','v','y','z'};
 		int[] sifreliCumle;
 		int[] sifre=new int[alfabe.length];
-		int[] buyukHarfKonumu ;    // mesaj icerisinde buyuk harflerin konumu atayacagýmýz dizi.
+		int[] buyukHarfKonumu ;    // mesaj icerisinde buyuk harflerin konumu atayacagÄ±mÄ±z dizi.
 		
 		sifreOlusturma(sifre,alfabe.length);  
 		
@@ -72,7 +71,7 @@ public class Calisma025_Sifreleme
 				{  // Ilk once harfin buyuk olup olmadigina bakiyoruz.
 					alfabe[j]=Character.toUpperCase(alfabe[j]);  // buyukse bizim alfabemizi buyutuyoruz.
 					if(sifreliCumle[i]==sifre[j])// sifreliCumle dizisindeki sayi sifre dizisindeki degerle eslesince
-						cozulmusCumle[i]=alfabe[j];  // cozulmusCumle dizisine alfabemizden harfi atýyoruz.
+						cozulmusCumle[i]=alfabe[j];  // cozulmusCumle dizisine alfabemizden harfi atÄ±yoruz.
 				}else 
 				{  
 					alfabe[j]=Character.toLowerCase(alfabe[j]); // harf buyuk degilse yukaridaki islemleri alfabe yi kuculterek tekrarliyoruz.
