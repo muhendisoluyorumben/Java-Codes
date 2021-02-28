@@ -1,5 +1,3 @@
-package Calismalar;
-
 /**
  * Her biri N tane farkli tamsayi degerini tutan A ve B dizileri dusunun. Her iki dizideki 
  * degerler artan sirada siralanmistir. A ve B dizilerini C dizisinde ilk n degeri artan sirada,
@@ -22,10 +20,10 @@ public class Calisma026_FarkliBirDiziSiralamasi {
 		diziC=new int[toplamUzunluk];
 		
 		for(int i=0;i<toplamUzunluk;i++) {
-			if(i<=4) {  //ilk 5 indise diziA'nin degerlerini at˝yoruz
+			if(i<=4) {  //ilk 5 indise diziA'nin degerlerini at√Ωyoruz
 				digerDizi[i]=diziA[i];
 			}
-			else if(i>4) {//son 5 indise diziB'nin degerlerini at˝yoruz
+			else if(i>4) {//son 5 indise diziB'nin degerlerini at√Ωyoruz
 				digerDizi[i]=diziB[i-5];
 			}
 		}
@@ -39,7 +37,7 @@ public class Calisma026_FarkliBirDiziSiralamasi {
 				}
 			}
 		}
-		for(int i=0;i<5;i++) {  // bizden istedigi siralama ile elemanlari diziC dizisine at˝yoruz.
+		for(int i=0;i<5;i++) {  // bizden istedigi siralama ile elemanlari diziC dizisine at√Ωyoruz.
 			diziC[i]=digerDizi[(i+9)-(2*i)];// burda diziC[0] = digerDizi[8] --> diziC[1]= digerDizi[7] seklinde atama yapiyoruz.
 			diziC[i+5]=digerDizi[i];   // burda da dizic[5] = digerDizi[0] --> dizi[6] = digerDizi[1] seklinde atama yapiyoruz.
 		}
