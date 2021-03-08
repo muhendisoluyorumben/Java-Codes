@@ -1,4 +1,3 @@
-package Calismalar;
 /**
  * '*' karakteri ile ucgen cizen program. 
  * @author Murat
